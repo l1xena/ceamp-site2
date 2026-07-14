@@ -1,0 +1,29 @@
+CEAMP — Pacote final (home nova + fotos + menu em todas as páginas)
+====================================================================
+
+ONDE COLOCAR CADA ARQUIVO (arraste pra dentro do seu projeto ceamp-site/)
+- index.html, historia.html, pesquisadores.html,
+  repositorio.html, contato.html  -> substituem os atuais (na raiz)
+- css/home.css   -> arquivo NOVO (pasta css/)
+- css/theme.css  -> arquivo NOVO (pasta css/)
+- img/hero-desktop.jpg e img/hero-mobile.jpg  -> as artes da home (pasta img/)
+- img/pesquisadores/*.jpg  -> as 25 fotos já com o nome certo (img/pesquisadores/)
+
+O seu css/style.css e o js/main.js NÃO precisam ser mexidos.
+
+O QUE MUDOU
+- HOME nova: uma tela fixa (sem rolagem) — menu em cima, a arte no meio,
+  rodapé embaixo. Menu e rodapé em laranja (#d06418), fonte Helvetica.
+- MENU novo em TODAS as páginas: laranja, alinhado à direita, com o item
+  "Home". As páginas internas continuam rolando normalmente.
+- RODAPÉ: mostra "Centro de Estudos Americanos da Unicamp".
+- FOTOS dos pesquisadores: as 25 já entram sozinhas (o nome dos arquivos
+  bate com cada pessoa). Foram cortadas no quadrado e otimizadas.
+
+AJUSTES FÁCEIS
+- Cor do menu/rodapé: variável --header no topo do css/theme.css.
+- Quanto a arte da home é ampliada: --img-scale no topo do css/home.css.
+- Trocar uma foto: substitua o arquivo em img/pesquisadores/ mantendo o
+  mesmo nome (slug).
+
+Dúvidas? É só chamar.
